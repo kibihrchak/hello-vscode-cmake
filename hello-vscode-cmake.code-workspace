@@ -11,12 +11,15 @@
 		},
 		{
 			"path": "hello-subprojects"
+		},
+		{
+			"path": "cmake-tutorial-project"
 		}
 	],
-        "extensions": {
-                "recommendations": [
-                        "ms-vscode.cmake-tools",
-                        "ms-vscode.cpptools"
-                ]
-        }
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cmake-tools",
+			"ms-vscode.cpptools"
+		]
+	}
 }

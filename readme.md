@@ -14,6 +14,7 @@ Here's a short project overview list:
 |`hello-clang-format`   |Simple `clang-format` setup and use
 |`hello-clang-tidy`     |Simple `clang-tidy` setup and use
 |`hello-subprojects`    |Check handling of CMake subdirectories
+|`cmake-tutorial-project`|External CMake project from CMake tutorial
 
 # Environment Setup
 
