@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "hello-cmake"
+		},
+		{
+			"path": "hello-clang-format"
+		},
+		{
+			"path": "hello-clang-tidy"
+		},
+		{
+			"path": "hello-subprojects"
+		}
+	],
+        "extensions": {
+                "recommendations": [
+                        "ms-vscode.cmake-tools",
+                        "ms-vscode.cpptools"
+                ]
+        }
+}
