@@ -40,6 +40,7 @@ file](hello-vscode-cmake.code-workspace), as recommended extensions.
 
 # Resources
 
--
+*   [Microsoft CMake extension documentation][ms_cmake_ext_doc]
 
+[ms_cmake_ext_doc]: <https://vector-of-bool.github.io/docs/vscode-cmake-tools/index.html>
 [ext_ttroy50]: <https://github.com/ttroy50/cmake-examples>
