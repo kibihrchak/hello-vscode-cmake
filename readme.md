@@ -6,7 +6,8 @@ supplemental C/C++ development tools, most notably Clang tool suite.
 
 # Projects
 
-Here's a short local project overview list:
+Here's a short local project overview list. Click project name to go to
+the corresponding readme with setup stuff.
 
 |Project                    |Description
 |---------------------------|-------------------------------------------
@@ -15,6 +16,7 @@ Here's a short local project overview list:
 |`hello-clang-tidy`         |Simple `clang-tidy` setup and use
 |`hello-subprojects`        |Check handling of CMake subdirectories
 |`cmake-tutorial-project`   |External CMake project from CMake tutorial
+|[hello-rpi-cross-compile]  |Test cross-compilation for Raspberry Pi
 
 Aside from those, there are imported projects from other repos. They are
 kept as Git submodules in the `/external` directory, and active projects
@@ -44,3 +46,4 @@ file](hello-vscode-cmake.code-workspace), as recommended extensions.
 
 [ms_cmake_ext_doc]: <https://vector-of-bool.github.io/docs/vscode-cmake-tools/index.html>
 [ext_ttroy50]: <https://github.com/ttroy50/cmake-examples>
+[hello-rpi-cross-compile]: <hello-rpi-cross-compile/readme.md>

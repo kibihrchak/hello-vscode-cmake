@@ -16,6 +16,9 @@
 			"path": "cmake-tutorial-project"
 		},
 		{
+			"path": "hello-rpi-cross-compile"
+		},
+		{
 			"name": "external/ttroy50/cmake-examples/02-sub-projects/A-basic",
 			"path": "external/ttroy50/cmake-examples/02-sub-projects/A-basic"
 		}

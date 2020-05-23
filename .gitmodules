@@ -1,3 +1,6 @@
 [submodule "external/ttroy50/cmake-examples"]
 	path = external/ttroy50/cmake-examples
 	url = https://github.com/ttroy50/cmake-examples.git
+[submodule "hello-rpi-cross-compile/toolchains/raspberrypi/tools"]
+	path = hello-rpi-cross-compile/toolchains/raspberrypi/tools
+	url = https://github.com/raspberrypi/tools.git
