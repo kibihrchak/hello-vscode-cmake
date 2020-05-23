@@ -11,20 +11,20 @@ the corresponding readme with setup stuff.
 
 |Project                    |Description
 |---------------------------|-------------------------------------------
-|`hello-cmake`              |Simple "Hello, world!" program
-|`hello-clang-format`       |Simple `clang-format` setup and use
-|`hello-clang-tidy`         |Simple `clang-tidy` setup and use
-|`hello-subprojects`        |Check handling of CMake subdirectories
-|`cmake-tutorial-project`   |External CMake project from CMake tutorial
+|hello-cmake                |Simple "Hello, world!" program
+|hello-clang-format         |Simple `clang-format` setup and use
+|hello-clang-tidy           |Simple `clang-tidy` setup and use
+|hello-subprojects          |Check handling of CMake subdirectories
+|cmake-tutorial-project     |External CMake project from CMake tutorial
 |[hello-rpi-cross-compile]  |Test cross-compilation for Raspberry Pi
 
 Aside from those, there are imported projects from other repos. They are
 kept as Git submodules in the `/external` directory, and active projects
-are correspondingly named in the VSCode multi-root workspace. Repos are:
+are correspondingly named in the VSCode multi-root workspace.
 
-|Project                        |Description
+|Project                        |Note
 |-------------------------------|---------------------------------------
-|[TTroy's examples][ext_ttroy50]|Check out its readme for more info
+|ttroy50/cmake-examples         |Check repo doc [ttroy50_github]
 
 # Environment Setup
 
@@ -45,5 +45,6 @@ file](hello-vscode-cmake.code-workspace), as recommended extensions.
 *   [Microsoft CMake extension documentation][ms_cmake_ext_doc]
 
 [ms_cmake_ext_doc]: <https://vector-of-bool.github.io/docs/vscode-cmake-tools/index.html>
-[ext_ttroy50]: <https://github.com/ttroy50/cmake-examples>
+
 [hello-rpi-cross-compile]: <hello-rpi-cross-compile/readme.md>
+[ttroy50_github]: <https://github.com/ttroy50/cmake-examples/README.adoc>
