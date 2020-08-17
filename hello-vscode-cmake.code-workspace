@@ -19,8 +19,12 @@
 			"path": "hello-rpi-cross-compile"
 		},
 		{
-			"name": "external/ttroy50/cmake-examples/02-sub-projects/A-basic",
-			"path": "external/ttroy50/cmake-examples/02-sub-projects/A-basic"
+			"path": "external/ttroy50/cmake-examples/02-sub-projects/A-basic",
+			"name": "external/ttroy50/basic"
+		},
+		{
+			"path": "external/ttroy50/cmake-examples/07-package-management/D-conan/i-basic",
+			"name": "external/ttroy50/conan"
 		}
 	],
 	"extensions": {
@@ -30,6 +34,7 @@
 		]
 	},
 	"settings": {
-		"C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools"
+		"cmake.configureOnOpen": false,
+		"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 	}
 }
