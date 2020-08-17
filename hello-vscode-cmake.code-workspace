@@ -19,6 +19,9 @@
 			"path": "hello-rpi-cross-compile"
 		},
 		{
+			"path": "hello-conan"
+		},
+		{
 			"path": "external/ttroy50/cmake-examples/02-sub-projects/A-basic",
 			"name": "external/ttroy50/basic"
 		},
