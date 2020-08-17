@@ -17,6 +17,7 @@ the corresponding readme with setup stuff.
 |hello-subprojects          |Check handling of CMake subdirectories
 |cmake-tutorial-project     |External CMake project from CMake tutorial
 |[hello-rpi-cross-compile]  |Test cross-compilation for Raspberry Pi
+|[hello-conan]              |Test CMake integration for CMake Conan 
 
 Aside from those, there are imported projects from other repos. They are
 kept as Git submodules in the `/external` directory, and active projects
@@ -47,4 +48,5 @@ file](hello-vscode-cmake.code-workspace), as recommended extensions.
 [ms_cmake_ext_doc]: <https://vector-of-bool.github.io/docs/vscode-cmake-tools/index.html>
 
 [hello-rpi-cross-compile]: <hello-rpi-cross-compile/readme.md>
+[hello-conan]: <hello-conan/readme.md>
 [ttroy50_github]: <https://github.com/ttroy50/cmake-examples/README.adoc>
