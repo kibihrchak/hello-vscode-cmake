@@ -1,33 +1,37 @@
 {
 	"folders": [
 		{
-			"path": "hello-cmake"
+			"path": "projects/hello-cmake"
 		},
 		{
-			"path": "hello-clang-format"
+			"path": "projects/hello-clang-format"
 		},
 		{
-			"path": "hello-clang-tidy"
+			"path": "projects/hello-clang-tidy"
 		},
 		{
-			"path": "hello-subprojects"
+			"path": "projects/hello-subprojects"
 		},
 		{
-			"path": "cmake-tutorial-project"
+			"path": "projects/cmake-tutorial-project"
 		},
 		{
-			"path": "hello-rpi-cross-compile"
+			"path": "projects/hello-rpi-cross-compile"
 		},
 		{
-			"path": "hello-conan"
+			"path": "projects/hello-conan"
 		},
 		{
-			"path": "external/ttroy50/cmake-examples/02-sub-projects/A-basic",
+			"path": "projects/external/ttroy50/cmake-examples/02-sub-projects/A-basic",
 			"name": "external/ttroy50/basic"
 		},
 		{
-			"path": "external/ttroy50/cmake-examples/07-package-management/D-conan/i-basic",
+			"path": "projects/external/ttroy50/cmake-examples/07-package-management/D-conan/i-basic",
 			"name": "external/ttroy50/conan"
+		},
+		{
+			"path": ".",
+			"name": "root",
 		}
 	],
 	"extensions": {
