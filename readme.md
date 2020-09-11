@@ -29,6 +29,11 @@ projects are correspondingly named in the VSCode multi-root workspace.
 |-------------------------------|---------------------------------------
 |ttroy50/cmake-examples         |Check repo doc [ttroy50_github]
 
+
+[hello-rpi-cross-compile]: <hello-rpi-cross-compile/readme.md>
+[hello-conan]: <hello-conan/readme.md>
+[ttroy50_github]: <https://github.com/ttroy50/cmake-examples/README.adoc>
+
 # Environment Setup
 
 Needed Ubuntu packages are:
@@ -47,8 +52,5 @@ file](hello-vscode-cmake.code-workspace), as recommended extensions.
 
 *   [Microsoft CMake extension documentation][ms_cmake_ext_doc]
 
-[ms_cmake_ext_doc]: <https://vector-of-bool.github.io/docs/vscode-cmake-tools/index.html>
 
-[hello-rpi-cross-compile]: <hello-rpi-cross-compile/readme.md>
-[hello-conan]: <hello-conan/readme.md>
-[ttroy50_github]: <https://github.com/ttroy50/cmake-examples/README.adoc>
+[ms_cmake_ext_doc]: <https://vector-of-bool.github.io/docs/vscode-cmake-tools/index.html>
