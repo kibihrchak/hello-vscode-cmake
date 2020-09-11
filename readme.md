@@ -6,6 +6,8 @@ supplemental C/C++ development tools, most notably Clang tool suite.
 
 # Projects
 
+All projects are located in the `project/` directory.
+
 Here's a short local project overview list. Click project name to go to
 the corresponding readme with setup stuff.
 
@@ -20,8 +22,8 @@ the corresponding readme with setup stuff.
 |[hello-conan]              |Test CMake integration for CMake Conan 
 
 Aside from those, there are imported projects from other repos. They are
-kept as Git submodules in the `/external` directory, and active projects
-are correspondingly named in the VSCode multi-root workspace.
+kept as Git submodules in the `projects/external` directory, and active
+projects are correspondingly named in the VSCode multi-root workspace.
 
 |Project                        |Note
 |-------------------------------|---------------------------------------
