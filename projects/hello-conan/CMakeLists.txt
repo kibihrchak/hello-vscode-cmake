@@ -12,15 +12,30 @@ project (HelloConan)
 # include(${CMAKE_BINARY_DIR}/conan.cmake)
 include(conan.cmake)
 
-conan_cmake_run(
-    REQUIRES fmt/6.1.2
-    BASIC_SETUP
-    BUILD missing)
-
 # Add an executable
 add_executable(HelloConan main.cpp)
 
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#   Add Conan package and link it to the main executable
+
+conan_cmake_run(
+    REQUIRES fmt/6.1.2
+    BASIC_SETUP CMAKE_TARGETS
+    BUILD missing)
+
 # link against the fmt target supplied by conan
 target_link_libraries(HelloConan
-    PRIVATE ${CONAN_LIBS}
+    PRIVATE CONAN_PKG::fmt
 )
+
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#   Alternate add
+
+#conan_cmake_run(
+#    REQUIRES fmt/6.1.2
+#    BASIC_SETUP
+#    BUILD missing)
+#
+#target_link_libraries(HelloConan
+#    PRIVATE ${CONAN_LIBS}
+#)
