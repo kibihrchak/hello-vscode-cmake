@@ -30,8 +30,8 @@ projects are correspondingly named in the VSCode multi-root workspace.
 |ttroy50/cmake-examples         |Check repo doc [ttroy50_github]
 
 
-[hello-rpi-cross-compile]: <projects/hello-rpi-cross-compile/readme.md>
-[hello-conan]: <projects/hello-conan/readme.md>
+[hello-rpi-cross-compile]: <projects/hello-rpi-cross-compile/README.md>
+[hello-conan]: <projects/hello-conan/README.md>
 [ttroy50_github]: <https://github.com/ttroy50/cmake-examples/README.adoc>
 
 # Environment Setup
