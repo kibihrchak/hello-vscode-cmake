@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"path": ".",
+			"name": ".",
+		},
+		{
 			"path": "projects/hello-cmake"
 		},
 		{
@@ -20,18 +24,6 @@
 		},
 		{
 			"path": "projects/hello-conan"
-		},
-		{
-			"path": "projects/external/ttroy50/cmake-examples/02-sub-projects/A-basic",
-			"name": "external/ttroy50/basic"
-		},
-		{
-			"path": "projects/external/ttroy50/cmake-examples/07-package-management/D-conan/i-basic",
-			"name": "external/ttroy50/conan"
-		},
-		{
-			"path": ".",
-			"name": "root",
 		}
 	],
 	"extensions": {

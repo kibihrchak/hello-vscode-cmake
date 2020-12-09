@@ -21,18 +21,9 @@ the corresponding readme with setup stuff.
 |[hello-rpi-cross-compile]  |Test cross-compilation for Raspberry Pi
 |[hello-conan]              |Test CMake integration for CMake Conan 
 
-Aside from those, there are imported projects from other repos. They are
-kept as Git submodules in the `projects/external` directory, and active
-projects are correspondingly named in the VSCode multi-root workspace.
 
-|Project                        |Note
-|-------------------------------|---------------------------------------
-|ttroy50/cmake-examples         |Check repo doc [ttroy50_github]
-
-
-[hello-rpi-cross-compile]: <projects/hello-rpi-cross-compile/readme.md>
-[hello-conan]: <projects/hello-conan/readme.md>
-[ttroy50_github]: <https://github.com/ttroy50/cmake-examples/README.adoc>
+[hello-rpi-cross-compile]: <projects/hello-rpi-cross-compile/README.md>
+[hello-conan]: <projects/hello-conan/README.md>
 
 # Environment Setup
 
@@ -51,6 +42,8 @@ file](hello-vscode-cmake.code-workspace), as recommended extensions.
 # Resources
 
 *   [Microsoft CMake extension documentation][ms_cmake_ext_doc]
+*   [Useful CMake examples repo by Thom Troy][ttroy50_github]
 
 
 [ms_cmake_ext_doc]: <https://vector-of-bool.github.io/docs/vscode-cmake-tools/index.html>
+[ttroy50_github]: <https://github.com/ttroy50/cmake-examples/README.adoc>
